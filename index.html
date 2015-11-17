@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% include head.html %}
+
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 p0" >
+        </div>
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+        <div class="clearfix"></div>
+        <div class="col-xs12 col-md-6  pt10">
+
+        {% for lang in site.data.lang.lang %}
+            <a href="{{ lang.cc }}" class="button">{{ lang.name }}<i class="flR fa fa-commenting-o"></i></a>
+        {% endfor %}
+ 
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+

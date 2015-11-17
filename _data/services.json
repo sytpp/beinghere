@@ -1,0 +1,47 @@
+{
+   "services": [
+   
+  { 
+      "name" : "papers",
+      "cc" : "papers",
+      "icon": "flR fa fa-file"
+   },
+   {
+      "name" : "health",
+      "cc" : "health",
+      "icon": "flR fa fa-heartbeat"
+  },
+  {
+      "name" : "housing",
+      "cc" : "housing",
+      "icon": "flR fa fa-home"
+   },
+   {
+      "name" : "childcare",
+      "cc" : "childcare",
+      "icon": "flR fa fa-child"
+   },
+   {
+      "name" : "education",
+      "cc" : "education",
+      "icon": "flR fa fa-graduation-cap"
+   },
+   {
+      "name" : "work",
+      "cc" : "work",
+      "icon": "flR fa fa-briefcase"
+   },
+   {
+      "name" : "communication",
+      "cc" : "communication",
+      "icon": "flR fa fa-comments"
+   },
+   {
+      "name" : "social",
+      "cc" : "social",
+      "icon": "flR fa fa-sitemap "
+   }
+
+   ]
+}
+

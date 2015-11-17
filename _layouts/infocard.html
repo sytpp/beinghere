@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=1379668175683809";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+</script>
+
+
+{% include nav.html %}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12  p0" ></div>
+        <div class="clearfix"></div>
+        <div class="col-xs-12 pt40" >
+
+        <h2>In Short</h2>
+
+            {{content}}
+
+        </div>
+        <div class="col-xs-12 pt40">
+            <div class="detail--header">
+
+            </div>
+            <div class="detail--body">
+            </div>
+        </div>
+
+         <div class="clearfix"></div>
+
+        <div class="col-xs12 col-md-6 pt40">
+            <div class="fb-page" data-href="https://www.facebook.com/{{ page.facebook }}" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/{{ page.facebook }}"><a href="https://www.facebook.com/{{ page.facebook }}">{{ page.facebook }}</a></blockquote></div></div>
+        </div>
+
+        <div class="col-xs12 col-md-6 pt40" >
+            <a class="twitter-timeline" href="https://twitter.com/hashtag/{{ page.twitter }}" data-widget-id="663003140241903616">{{ page.twitter }}</a>
+        </div>
+
+
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

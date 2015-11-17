@@ -1,0 +1,30 @@
+# Site settings
+title: Being_Here
+description: > # this means to ignore newlines until "baseurl:"
+baseurl:  /neustart # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+highlighter: pygments
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
+collections:
+  country:
+    output: true
+    permalink: /:path/
+
+  detail:
+    output: true
+    permalink: /:path/
+
+  services:
+    output: true
+    permalink: /:path/
+
+

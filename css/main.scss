@@ -1,0 +1,56 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+body {
+    background-color: #ffffff;
+    font-family: Helvetica, Calibri, Arial, sans-serif;
+    color: #333;
+}
+a.button {
+    display: block;
+    /* border-left: 2px solid; */
+    /* border-right: 2px solid; */
+    border-bottom: 2px solid;
+    height: 40px;
+    /* text-align: center; */
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 30px;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
+.flR {
+    float: right;
+}
+.pt40   {
+    padding-top: 40px;
+}
+.pt10 {
+    padding-top: 10px;
+}
+.p0 {
+    padding: 0;
+}
+.ml15 {
+    margin-left: 15px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.c1 {
+    color: #337ab7;
+}
+.button.dIB {
+    display: inline-block;
+    margin: 0;
+    padding-top: 10px;
+}
+.navBtn {
+    width: 40px;
+    padding-left: 10px;;
+}
+.pt70 {
+    padding-top: 70px;
+}
