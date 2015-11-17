@@ -1,6 +1,8 @@
 # Being Here
 
-A refugee info hub, born in the 19 million project in Rome. 
+[http://sytpp.github.io/beinghere/](http://sytpp.github.io/beinghere/)
+
+A refugee info hub, born in Rome at the [19 million project](http://the19millionproject.com/). 
 This is a prototype. We don't take responsibility for content.
 
 @sytpp
